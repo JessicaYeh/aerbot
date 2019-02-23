@@ -28,7 +28,7 @@ function dateDebug(...args) {
 }
 
 function isMemberAdmin(message, guildData) {
-	return message.member.permissions.has("ADMINISTRATOR") || message.member.roles.get(guildData.officerRoleID);
+	return message.member.permissions.has("ADMINISTRATOR") || message.member.roles.get(guildData.officerRoleId);
 }
 
 //replacements is an object with keys of numbers starting at 1

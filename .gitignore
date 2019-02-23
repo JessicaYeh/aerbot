@@ -1,6 +1,5 @@
 update.sh
-aerbot-data
-aerbot-data/*
+dist
 token.json*
 
 # Created by https://www.gitignore.io/api/node,visualstudiocode
